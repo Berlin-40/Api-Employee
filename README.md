@@ -12,7 +12,7 @@ API REST pour la gestion des employés, développée avec **Spring Boot**.
 
 - **Java 17**+
 - **Maven** ou **Gradle**
-- Base de données (ex : MySQL, PostgreSQL)
+- Base de données (MySQL)
 
 ## Installation
 
@@ -21,7 +21,6 @@ Clone le projet :
 git clone https://github.com/Berlin-40/Api-Employee.git
 cd Api-Employee
 ```
-Il faudra une bd mysql avec un Table employees
 Configure les paramètres de la base de données dans le fichier `src/main/resources/application.properties` :
 ```properties
 spring.datasource.url=jdbc:mysql://localhost:3306/nom_de_la_bdd
