@@ -5,8 +5,6 @@ API REST pour la gestion des employés, développée avec **Spring Boot**.
 ## Fonctionnalités principales
 
 - CRUD sur les employés (`GET`, `POST`, `PUT`, `DELETE`)
-- Gestion des départements et des postes
-- Recherche et filtrage
 
 ## Prérequis
 
