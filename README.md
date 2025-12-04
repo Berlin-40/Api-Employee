@@ -55,7 +55,7 @@ L’API sera dispo sur [http://localhost:9080](http://localhost:9080).
 ```bash
 curl -X POST http://localhost:9080/employees \
   -H 'Content-Type: application/json' \
-  -d '{"nom": "Jean Dupont", "poste": "Développeur", "departement": "IT"}'
+  -d '{"firstName":"Milton","id":24,"lastName":"Malagasy Ariary","mail":"Lizeth_Leuschke@hotmail.com","password":"FtU0Wv75VbVxfcP"}'
 ```
 
 ## Documentation Swagger
