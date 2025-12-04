@@ -2,6 +2,7 @@ package com.kamel.api.controller;
 
 import com.kamel.api.model.Employee;
 import com.kamel.api.service.EmployeeService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,6 +15,15 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+    /**
+     * Create - Add a new employee
+     * @param employee An object employee
+     * @return The employee object saved
+     */
+    @PostMapping("/employee")
+    public Employee createEmployee(@RequestBody Employee employee) {
+        return employeeService.saveEmployee(employee);
+    }
 
     /**
      * Read - Get one employee
